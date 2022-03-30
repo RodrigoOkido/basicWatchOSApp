@@ -11,7 +11,7 @@
 		2B3BE58727F4AAF30048F5B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B3BE58627F4AAF30048F5B3 /* Assets.xcassets */; };
 		2B3BE58D27F4AAF40048F5B3 /* basicWatchOSApp WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 2B3BE58C27F4AAF40048F5B3 /* basicWatchOSApp WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		2B3BE59227F4AAF40048F5B3 /* basicWatchOSAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3BE59127F4AAF40048F5B3 /* basicWatchOSAppApp.swift */; };
-		2B3BE59427F4AAF40048F5B3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3BE59327F4AAF40048F5B3 /* ContentView.swift */; };
+		2B3BE59427F4AAF40048F5B3 /* DummyCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3BE59327F4AAF40048F5B3 /* DummyCalculator.swift */; };
 		2B3BE59627F4AAF40048F5B3 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3BE59527F4AAF40048F5B3 /* NotificationController.swift */; };
 		2B3BE59827F4AAF40048F5B3 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3BE59727F4AAF40048F5B3 /* NotificationView.swift */; };
 		2B3BE59A27F4AAF40048F5B3 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B3BE59927F4AAF40048F5B3 /* ComplicationController.swift */; };
@@ -67,7 +67,7 @@
 		2B3BE58627F4AAF30048F5B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B3BE58C27F4AAF40048F5B3 /* basicWatchOSApp WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "basicWatchOSApp WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B3BE59127F4AAF40048F5B3 /* basicWatchOSAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = basicWatchOSAppApp.swift; sourceTree = "<group>"; };
-		2B3BE59327F4AAF40048F5B3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2B3BE59327F4AAF40048F5B3 /* DummyCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyCalculator.swift; sourceTree = "<group>"; };
 		2B3BE59527F4AAF40048F5B3 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		2B3BE59727F4AAF40048F5B3 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
 		2B3BE59927F4AAF40048F5B3 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
@@ -119,7 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				2B3BE59127F4AAF40048F5B3 /* basicWatchOSAppApp.swift */,
-				2B3BE59327F4AAF40048F5B3 /* ContentView.swift */,
+				2B3BE59327F4AAF40048F5B3 /* DummyCalculator.swift */,
 				2B3BE59527F4AAF40048F5B3 /* NotificationController.swift */,
 				2B3BE59727F4AAF40048F5B3 /* NotificationView.swift */,
 				2B3BE59927F4AAF40048F5B3 /* ComplicationController.swift */,
@@ -267,7 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B3BE59627F4AAF40048F5B3 /* NotificationController.swift in Sources */,
-				2B3BE59427F4AAF40048F5B3 /* ContentView.swift in Sources */,
+				2B3BE59427F4AAF40048F5B3 /* DummyCalculator.swift in Sources */,
 				2B3BE59A27F4AAF40048F5B3 /* ComplicationController.swift in Sources */,
 				2B3BE59227F4AAF40048F5B3 /* basicWatchOSAppApp.swift in Sources */,
 				2B3BE59827F4AAF40048F5B3 /* NotificationView.swift in Sources */,
